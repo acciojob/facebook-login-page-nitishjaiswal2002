@@ -1,1 +1,53 @@
 /*  your css code here. If applicable */
+body{
+	background:#f6f6f6;
+}
+.flexbox{
+	display:flex;
+}
+
+.para{
+	width:50%;
+	height:100%;
+	padding-left:10px;
+	
+}
+h1{
+	color:#1a77f2;
+	font-size:90px;
+	font-family:sans-serif;
+}
+
+p{
+	font-size:30px;
+	color:#505050;
+}
+
+#card{
+	height:300px;
+	width:700px;
+	background:#ffffff;
+	display:flex;
+	flex-direction:column;
+	margin:90px;
+	border-radius:10px;
+	padding:30px;
+}
+
+#input{
+	height:40px;
+	border-radius:5px;
+	font-size:20px;
+}
+
+a{
+	align:center;
+	padding-left:80px;
+	text-decoration:none;
+}
+#btn{
+	font-size:30px;
+	border-radius:5px;
+	color:white;
+	background:blue;
+}
