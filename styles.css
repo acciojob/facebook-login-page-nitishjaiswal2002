@@ -1,57 +1,84 @@
 /*  your css code here. If applicable */
-body{
-	background:#f6f6f6;
-}
-.flexbox{
-	display:flex;
-}
-
-.para{
-	width:50%;
-	height:100%;
-	padding-left:10px;
-
-}
-h1{
-	color:#1a77f2;
-	font-size:90px;
-	font-family:sans-serif;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
 }
 
-p{
-	font-size:30px;
-	color:#505050;
+.container {
+  max-width: 400px;
+  margin: 100px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#card{
-	height:300px;
-	width:700px;
-	background:#ffffff;
-	display:flex;
-	flex-direction:column;
-	margin:90px;
-	border-radius:10px;
-	padding:30px;
+.login-form {
+  text-align: center;
 }
 
-#email{
-	height:40px;
-	border-radius:5px;
-	font-size:20px;
+.login-form img {
+  width: 120px;
 }
 
-a{
-	align:center;
-	padding-left:80px;
-	text-decoration:none;
-}
-#btn{
-	font-size:30px;
-	border-radius:5px;
-	color:white;
-	background:blue;
+.description {
+  font-size: 14px;
+  color: #65676b;
+  margin-top: 20px;
 }
 
-.signup{
-	
+.form-group {
+  margin-top: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #166fe5;
+}
+
+.forgot-password {
+  display: block;
+  color: #1877f2;
+  margin-top: 10px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #1877f2;
+  font-size: 16px;
+  text-decoration: none;
 }
